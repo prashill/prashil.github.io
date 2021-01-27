@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title> PRASHIL SONI | Web portfolio</title>
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ANIMEJS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+ 
+
+  <!-- FONTS -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <!-- IONICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+
+  <!-- SCROLL REVEAL ANIMATIONS -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" />
+  <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+
+  <!-- SIMPLE PARALLAX -->
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.0.2/dist/simpleParallax.min.js"></script>
+
+  <!-----------baffle.js(for softwareengineer text)----------------->
+  <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+
+  <!-- TweenMax - GSAP (for project section)-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.4/TweenMax.min.js"></script>
+
+  <!-- fontawesom library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- ===== BOX ICONS ===== -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+<body>
+  
+
+
+  <!-- <div class="cursor"></div>
+  <div class="cursor-follower"></div> -->
+
+  <!-------------- Percent scroll bar ---------------->
+  <div class="percent">
+    <div class="fill"></div>
+    <div class="counter"><h2></h2></div>
+  </div>
+
+<!-----------------Hamburger---------------------------------->
+<button id="btn">☰</button>
+<nav id="nav">
+  
+  <ul >
+    <li  > <a href="#home"> Home</a></li>
+    <li > <a href="#about"> About</a></li>
+    <li > <a href="#projects"> Projects</a></li>
+    <li > <a href="#contact"> Contact</a></li> 
+  </ul>
+</nav>
+
+
+
+  <!-- HERO SECTION -->
+  <a name="home"></a>
+  <div class="wrapper">
+    <section class="hero-section">
+
+      <!-- LOGO -->
+      <div class="hero-logo">
+        <ul>
+          <li>  <a href="#about">About</a> </li>
+          <li>  <a href="#projects">Projects</a> </li>
+
+           <li> <a href="#contact">Contact</a> </li>
+          
+        </ul>
+      </div>
+
+      <!--------------- SOCIAL MEDIA ICONS ---------------------->
+      <div class="media">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/prashil.soni.1" target="_blank">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/prashilsonii/" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/prashil-soni/" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/prashill" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#abouttop"><img src="arrow.png" /></a>
+          </li>
+
+        </ul>
+      </div>
+      <div> </div>
+
+      <!-- VIEW resume LINK -->
+      <div class="view-resume">
+        <a href="resume.pdf" download target="_blank">Resume</a>
+      </div>
+
+      <!------------------ HERO-IMAGE-------------------->
+      <div class="hero-img">
+        <div class="portfolio-item">
+          <div class="portfolio-thumb">
+            <a href="#projects"><img src="hero-bg.jpg" class="hero-img-parallax" /> </a> <br>
+          </div>
+        </div>
+
+        <div class="data">
+          <div class="textbelow">
+            <h6 style="color: white;">Software Engineer</h6>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- HERO-TITLE -->
+      <div class="hero-title">
+        <h1>PRASHIL SONI</h1>
+      </div>
+
+
+    </section>
+
+    <!-------------------------- ABOUT SECTION------------------------------ -->
+    <a name="about"></a>
+    <a name="abouttop"></a>
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="about-heading col-lg-6">
+            <h1 class="wow fadeInUp" data-wow-delay="0.2s">About</h1>
+
+          </div>
+          <div class="about-content col-lg-6">
+
+            <img src="2.1.jpg" alt="" class="wow fadeInUp" data-wow-delay="0.3s">
+            <br>
+            <br>
+            <p class="wow fadeInUp" data-wow-delay="0.4s">
+              Hello,I'm Prashil Soni. A Software Engineer based in the United States.
+              I am Currently studying Master of Science in Computer Science at Auburn University at Montgomery, United States. I like to work with JavaScript, NodeJS, ReactJS, PHP, MySQL, Python, django, HTML and CSS but I am always open to learn new things.  
+              I have predilection for design and enjoy working on projects were approaching
+              design and development as co-dependent processes can lead to smarter solutions and a better
+              overall product experience for fellow humans.
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="0.6s">
+              I have gained enough practical knowledge for programming and SDLC (Software
+              Development Life Cycle) to apply in the industry. Moreover,
+              studies in Data structure & algorithm, Advance database system, object oriented programming
+              have provided an excellent foundation to work in the software industry.
+            </p>
+            <div class="about-link wow fadeInUp" data-wow-delay="0.6s">
+              <a href="#contact">MORE INFO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+       <!-----------------QUALIFICATION --------------------------->
+            <section class="qualification section bd-container" > 
+                <div class="qualification__container bd-grid">
+                        <div class="qualification__content">
+                            <h3 class="qualification__title wow fadeInUp">
+                              <i class='bx bx-briefcase-alt qualification__title-icon'></i>
+                                Work Experience 
+                            </h3> <br>
+
+                            <div class="bd-grid">
+                 
+                              <div class="qualification__data">
+                                <h4 class="qualification__area wow fadeInUp">Graduate Teaching Assistant</h4> <br>
+                                  <div class="qualification__box">
+                                      <span class="qualification__work wow fadeInUp">
+                                      <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                      Auburn University at Montgomery, USA 
+                                      </span>
+                                      <span class="qualification__work wow fadeInUp">
+                                      <i class='bx bx-calender-alt qualification__icon'></i>
+                                      Dec 2020 - May 2021
+                                      </span>    
+                                  </div>
+                              </div>
+
+                                <div class="qualification__data">
+                                  <h4 class="qualification__area wow fadeInUp">Software Engineer</h4><br>
+                                    <div class="qualification__box">
+                                        <span class="qualification__work wow fadeInUp">
+                                        <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                        Elite evince technology, India
+                                        </span>
+                                        <span class="qualification__work wow fadeInUp">
+                                        <i class='bx bx-calender-alt qualification__icon'></i>
+                                        Dec 2018 - Nov 2019
+                                        </span>    
+                                    </div>
+                                </div>
+
+                                  <div class="qualification__data">
+                                    <h4 class="qualification__area wow fadeInUp">Software Engineer, intern</h4><br>
+                                      <div class="qualification__box">
+                                          <span class="qualification__work wow fadeInUp">
+                                          <i class='bx bx-briefcase-alt qualification__icon'></i>
+                                          Elite evince technology, India
+                                          </span>
+                                          <span class="qualification__work wow fadeInUp">
+                                          <i class='bx bx-calender-alt qualification__icon'></i>
+                                          July 2018 - Aug 2018
+                                          </span>    
+                                      </div>
+                                  </div>
+                    
+                            </div>
+                        </div>
+
+                        <div class="qualification__content">
+                            <h3 class="qualification__title wow fadeInUp">
+                                <i class='bx bx-book-bookmark qualification__title-icon'></i>
+                               Education
+                            </h3> <br>
+                            <div class="bd-grid">
+
+                                <div class="qualification__data">
+                                    <h4 class="qualification__area wow fadeInUp">Master of Science, Computer Science</h4> <br>
+                                    <div class="qualification__box">
+                                        <span class="qualification__work wow fadeInUp">
+                                        <i class='bx bx-bookmark-alt qualification__icon'></i>
+                                        Auburn University at Montgomery, USA
+                                        </span>
+                                        <span class="qualification__work wow fadeInUp">
+                                        <i class='bx bx-calender-alt qualification__icon'></i>
+                                        GPA: 4.00/4.00
+                                        </span>    
+                                    </div>
+                                </div>  
+
+                                <div class="qualification__data">
+                                  <h4 class="qualification__area wow fadeInUp">Bachlor of Engineering, Computer Engineering</h4> <br>
+                                  <div class="qualification__box">
+                                      <span class="qualification__work wow fadeInUp">
+                                      <i class='bx bx-bookmark-alt qualification__icon'></i>
+                                      Gujarat Technological University, India
+                                      </span>
+                                      <span class="qualification__work wow fadeInUp">
+                                      <i class='bx bx-calender-alt qualification__icon'></i>
+                                      GPA: 7.30/10.00
+                                      </span>    
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                </div>
+            </section>
+    </section>
+
+
+
+    <!------------------------------ PROJECT SECTION  -------------------------------------->
+    <a name="projects"></a>
+    <section class="project-section">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="arrow-down">
+                <ion-icon name="arrow-down" class="wow fadeInUp" data-wow-delay="0.4s"></ion-icon>
+              </div>
+            </div>
+            <div class="project-heading col-lg-6">
+              <h1 class="wow fadeInUp" data-wow-delay="0.5s">PROJECTS</h1>
+            </div>
+          </div>
+       
+          <div class="project-preview"></div>
+          <div class="project-preview-wrapper"></div>
+         
+        <div class="card card1" style="background-color: #1a1919;">
+          <div class="card-body">
+            <h5 class="card-title">University Launchpad portal</h5>
+            <p class="card-text">A fullstack web application that help students to perform day to day task online. <br> Techonologies: HTML, CSS, JavaScript, PHP, SQL, web api, REST API, AJAX, jQuery </p>
+            <a href="https://github.com/prashill/University-launchpad-portal" class="btn" style="margin-bottom: 50px;" target="_blank">Github</a>
+          </div>
+        </div>
+
+        <div class="card card2" style="background-color: #1a1919;">
+          <div class="card-body">
+            <h5 class="card-title">Marketplace for youtubers</h5>
+            <p class="card-text">a marketplace where user can come and see offered youtubers 
+              service and pricing. <br> They can reach out to youtubers for promotion of thier products <br> Techonologies: HTML, CSS, django, python, postgreSQL    </p>
+            <a href="https://github.com/prashill/Marketplace-for-youtubers" class="btn" style="margin-bottom: 50px;" target="_blank">Github</a>
+          </div>
+        </div>
+
+        <div class="card card3" style="background-color: #1a1919;">
+          <div class="card-body">
+            <h5 class="card-title">3d E-commerce store</h5>
+            <p class="card-text">User can saw products in 3d views. purpose is to improve user experience on E-commerce sites.  </p>
+            <a href="https://github.com/prashill/" class="btn" style="margin-bottom: 50px;" target="_blank">Github</a>
+          </div>
+        </div>
+
+        <div class="card card4" style="background-color: #1a1919;" >
+          <div class="card-body">
+            <h5 class="card-title">Stock market webapp</h5>
+            <p class="card-text">Using web APIs build stock market app, where user can easily get price of stocks. <br>
+              Techonologies: Bootstrap,Python, Django, IEX cloud API </p>
+            <a href="https://github.com/prashill/django_stock" class="btn" target="_blank" style="margin-bottom: 50px;">Github</a>
+          </div>
+        </div>
+
+        <div class="card card5" style="background-color: #1a1919;" >
+          <div class="card-body">
+            <h5 class="card-title">Crypto currency using blockchain</h5>
+            <p class="card-text">Integrate the Cryptocurrency, building Wallets, Keys, and Transactions <br>
+              Techonologies: Python, Flask, JavaScript, React, blockchain </p>
+            <a href="https://github.com/prashill/CryptoCurrency-python-blockchain" class="btn" target="_blank" style="margin-bottom: 50px;">Github</a>
+          </div>
+        </div>
+          <!-- <div class="progressbar"></div> -->
+          <br><br><br><br><br><br>
+        </div>
+      </div>
+    </section>
+    
+
+
+    <!---------------------------- CONTACT SECTION ----------------------------------------------->
+    <a name="contact"></a>
+    <section class="social-media">
+      <div class="container">
+        <div class="row">
+          <div class="sm-heading col-lg-6">
+            <h1 class="wow fadeInUp" data-wow-delay="0.2s">Reach out</h1>
+          </div>
+          <div class="sm-content col-lg-6">
+            <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+              soniprashil64@gmail.com
+            </h3>
+            <h3 class="wow fadeInUp" data-wow-delay="0.4s">
+              +1 334-220-6699
+            </h3>
+            <p class="wow fadeInUp" data-wow-delay="0.5s">
+              Thank you for stopping by! <br>
+              Let's get in touch on any of these platforms.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 text-left">
+          <div class="social-icons">
+            <ul>
+              <li class="wow fadeInUp" data-wow-delay="0.7s">
+                <a href="https://www.facebook.com/prashil.soni.1" target="_blank">facebook</a>
+              </li>
+
+              <li class="wow fadeInUp" data-wow-delay="0.9s">
+                <a href="https://www.instagram.com/prashilsonii/" target="_blank">instagram</a></li>
+              </li>
+              <li class="wow fadeInUp" data-wow-delay="0.9s">
+                <a href="https://www.linkedin.com/in/prashil-soni/" target="_blank">linkedin</a>
+              </li>
+              <li class="wow fadeInUp" data-wow-delay="0.9s">
+                <a href="https://www.linkedin.com/in/prashil-soni/" target="_blank">github</a>
+              </li>
+              
+              <div class="backtop">
+               
+                <a href="#home" style="color: black;"> <img
+                    src="https://img.icons8.com/ios-filled/15/000000/long-arrow-up.png" /> Back to top </a>
+              </div>
+              <p class="wow fadeInUp" data-wow-delay="0.9s" 
+              style=" 
+              margin-top: 50px;
+              text-align: left;
+              color: #0f0f0f;
+              font-weight: 300;
+              font-family: Cormorant;
+              margin-bottom: 10px;
+              " >Designed and coded with ❤ by me</p>
+ 
+            </ul>
+           
+          </div>
+          
+        </div>
+       
+      </div>
+      
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
